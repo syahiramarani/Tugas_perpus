@@ -1,0 +1,168 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', Arial;
+    font-size: 14px;
+}
+
+body {
+    overflow-x: hidden;
+    /* overflow: hidden; */
+}
+
+.container {
+    display: flex;
+}
+
+aside {
+    width: 18%;
+    height: 800px;
+    background-color: white;
+    /* border: 1px solid black; */
+    padding: 25px;
+    box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+header svg {
+    size: 20px;
+    color: blueviolet;
+}
+
+header h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+    gap: 5px;
+    font-size: 18px;
+}
+
+.sidebar {
+    margin-top: 20px;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.sidebar ul li {
+    list-style: none;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.sidebar .head-nav {
+    margin-top: 30px;
+    width: 100%;
+    background-color: blueviolet;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    color: white;
+}
+
+.sidebar .head-nav li {
+    font-size: 14px;
+    color: white;
+}
+
+.sidebar ul li svg {
+    color: blueviolet;
+}
+
+.sidebar ul li a {
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #777;
+    font-weight: 500;
+}
+
+.sidebar ul li a:hover {
+    color: blueviolet;
+}
+
+.content {
+    width: 80%;
+    background-color: #fafafa;
+}
+
+.content .sub-content {
+    padding: 20px;
+}
+
+.content .sub-content h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.content .sub-content h4 {
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.content .sub-content span {
+    font-weight: 500;
+    font-size: 24px;
+    color: #444;
+}
+
+
+.content .menu {
+    width: 100%;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .menu .profil {
+    display: flex;
+    margin-right: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .menu .profil p {
+    font-size: 14px;
+    color: #777;
+}
+
+.content .menu .search form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+    color: blueviolet;
+}
+
+.content .menu .search input {
+    width: 200px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.content .menu .search input:hover {
+    border: 1px solid blueviolet;
+}
+
+.content .menu .search input:active {
+    border: 1px solid blueviolet;
+}
