@@ -1,0 +1,59 @@
+form {}
+
+.form-label {
+    display: block;
+    margin-left: 2px;
+    color: #666;
+}
+
+.form-label-radio {
+    display: inline;
+    margin-left: 2px;
+    color: #666;
+    margin-right: 20px;
+}
+
+.form .form-group {
+    margin-bottom: 15px;
+}
+
+.form .form-input {
+    width: 50%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.form .textarea {
+    width: 50%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+
+}
+
+.form .textarea:hover {
+
+    border: 1px solid blueviolet;
+}
+
+.form .form-input:hover {
+    border: 1px solid blueviolet;
+}
+
+
+.form button {
+    border: none;
+}
+
+.btn-danger {
+    padding: 10px 16px;
+    background-color: #f43f5e;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}

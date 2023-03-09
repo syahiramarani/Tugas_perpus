@@ -1,0 +1,41 @@
+table {
+    margin-top: 20px;
+    padding: 5px;
+    color: #666;
+}
+
+table tbody td {
+    padding-top: 10px;
+}
+
+table tbody td .ubah {
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 40px;
+    width: 20px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: #22c55e;
+    color: white;
+}
+
+table tbody td .hapus {
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: #f43f5e;
+    color: white;
+}
+
+.btn-primary {
+    padding: 10px 16px;
+    background-color: #3b82f6;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
